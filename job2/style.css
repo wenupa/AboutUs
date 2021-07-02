@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    background:#eee;
+    font-family:sans-serif;
+}
+
+.banner-area
+{
+    width:100%;
+    height:500px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(pictures/pexels-genine-alyssa-pedrenoandrada-2403209.jpg);
+    background-size:cover;
+}
+
+.navbar
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(12, 44, 189);
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    color: rgb(255, 255, 255);
+}
+
+.Portfolio
+{
+    text-align: center;
+    margin-top: 10%;
+    /* /* background-color: brown; */
+}
+
+.twolinks
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.customer
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.child_one
+{
+    /* border: 2px solid black; */
+    float: left;
+    width: 50%;
+}
+
+.child_two
+{
+    /* border: 2px solid black; */
+    float: right;
+    width: 50%;
+    /* margin-left: 5px; */
+}
+
+.theboxone{
+    background-color: darkviolet;
+    /* width:50%; */
+    width: 600px;
+    height: 300px;
+    padding: 40px;
+    color: white;
+    font-size:20px;
+    border-bottom-right-radius: 30px;
+}
+
+.theboxone #theimage{
+    width:80px;
+    border-radius: 50%;
+    /* position: fixed; */
+    text-indent: -999em;
+    margin-top: -90px;
+    margin-left: -42px;
+}
+
+.theboxone #box_one{
+    margin-top: 100px;
+    float: left;
+    display: inline-block;
+    width:70%;
+    margin-left: 50px;
+}
+
+.theboxone #box_two{
+    margin-top: 100px;
+    float: right;
+    display: inline-block;
+    width:70%;
+    margin-left: 50px;
+}
+
+.ready
+{
+    background-color: chartreuse;
+    text-align: center;
+}
+
+.subscription
+{
+}
